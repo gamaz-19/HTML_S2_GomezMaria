@@ -1,0 +1,25 @@
+/* Esta esta es una clase de img para poder modificar tamano y el recorte sin afectar a la otra */
+.porfile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+/* Esta es otra clase de img para evitar el bordeado y tamano fiderente */
+.gif{
+    width: 150px;
+    height: 150px;
+
+}
+
+/* Estas son las caracteristicas y estilo de la tabla*/
+table,tr, td {
+        border: 1px solid black;
+        text-align: center;
+        height: 200px;
+        width: 700px;
+    }
+
+
+/* Desarrollado por: Maria Alejandra Gomez Archila - cc.1005234916 */
