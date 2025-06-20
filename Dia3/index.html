@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+</head>
+
+<body>
+    
+    <h2>FORMULARIO DE REGISTRO</h2>
+    <!-- En action se especifica donde se quiere guardar la informacion y en method la forma coon la que se desea realizar-->
+
+    <form action="enviar.html" method="post">
+        <label for="nombre"> Nombre: </label>
+        <input type="text" id="nombre" name="name" maxlength="50">
+        <br><br>
+        <label for="surname"> Apellido: </label>
+        <input type="text" id="surname" name="surname" maxlength="50">
+        <br><br>
+        <label for="sexo">Sexo: </label>
+        <select name="sexo" id="sexo">
+            <option value="M">Hombre</option>
+            <option value="F">Mujer</option>
+        </select>
+        <br><br>
+        <label for="email"> Correo electronico</label>
+        <input type="email" id="email" name="email" >
+        <br><br>
+        <label for="poblacion">Poblacion: </label>
+        <select name="poblacion" id="poblacion">
+            <option value="BGA">Bucaramanga </option>
+            <option value="GRN">Giron </option>
+            <option value="PDC">Piedecuesta </option>
+            <option value="FDB">Floridablanca</option>
+        </select>
+        <br><br>
+        <label for="descr">Descripcion: </label>
+        <textarea name="descr" id="descr" rows="10" cols="50" ></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <br><br>
+        <input type="radio" id="verificacion1" name="verificacion1" checked>
+        <label for="verificacion1">Deseo recibir información sobre novedades y ofertas.</label>
+        <br><br>
+        <input type="radio" id="verificacion2" name="verificacion2" >
+        <label for="verificacion2">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos.</label>
+        
+    </form>
+</body>
+</html>
+
+<!--Desarrollado por: Maria Alejandra Gomez Archila - cc.1005234916 -->
