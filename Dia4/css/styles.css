@@ -22,24 +22,14 @@ header {
 
 .search {
     float: left;
+    padding-left: 35px;
+    padding-top: 21px
 }
 
 #search {
     width: 30px;
     width: 30px;
     justify-items: left;
-    padding-right: 80%;
-}
-
-.login {
-    float: right;
-}
-
-#login {
-    width: 150px;
-    height: 35px;
-    border-radius: 30px;
-    justify-items: right;
 }
 
 .logo {
@@ -48,48 +38,72 @@ header {
     margin: 0 auto;
     justify-content: center;
     padding-top: 200px;
-
 }
 
 #logo {
     width: 200px;
     height: 100px;
-    padding-left: 133px;
+    padding-left: 67px;
+}
 
+.login {
+    float: right;
+    padding-right: 20px;
+    padding-top: 21px;
+}
+
+#login {
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    justify-items: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.favs {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
 }
 
 #favouritecontent {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
+    font-size: 35px;
     color: white;
-    padding-top: 2px;
-    padding-bottom: 10px;
-    padding: 20px 50px;
+}
+
+.now {
+
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #now {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     font-size: 1em;
-    padding: 20px 50px;
 }
 
 .signup {
     padding-bottom: 50px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #signup {
-    width: 150px;
-    height: 35px;
+    height: auto;
     border-radius: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.05em;
+    font-size: 25px;
     color: black;
-    background-color: white;
-    border-radius: 40px;
+    border-radius: 50px;
     border: white;
-    padding: 20px 50px;
-
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 
@@ -102,7 +116,6 @@ header {
     max-width: 100%;
     justify-content: center;
     padding: 10px 15px;
-
 }
 
 .livecontent {
@@ -124,7 +137,6 @@ header {
     max-width: 100%;
     justify-content: center;
     padding: 0px 15px;
-
 }
 
 .thirdsection {
@@ -140,7 +152,6 @@ header {
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 10px;
-
 }
 
 .sizeimg {
@@ -156,7 +167,6 @@ header {
     max-width: 100%;
     justify-content: center;
     padding: 10px 15px;
-
 }
 
 .cancel {
@@ -179,7 +189,6 @@ header {
     max-width: 100%;
     justify-content: center;
     padding: 0px 15px;
-
 }
 
 .fifthsection {
@@ -192,8 +201,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-
-
 }
 
 /*Background-color was used to adjust the padding to each image*/
@@ -233,7 +240,6 @@ header {
 footer {
     color: white;
     align-items: center;
-
 }
 
 .footer {
@@ -247,7 +253,6 @@ footer {
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 /*Desarrollado por: Maria Alejandra Gomez Archila - cc.1005234916 */
