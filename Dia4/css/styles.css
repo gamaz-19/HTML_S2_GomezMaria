@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(0, 0, 0);
 }
 
 /*STYLE FIRST SECTION/HEADER*/
 
-header{
+header {
     background-image: url(/Dia4/images/fondoTwitch.png);
     position: static;
     max-width: 100%;
@@ -47,15 +47,15 @@ header{
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    padding-top: 140px;
-    padding-bottom: 50px;
+    padding-top: 200px;
+
 }
 
 #logo {
-    width: 150px;
-    height: 80px;
-    padding-left: 120px;
-    
+    width: 200px;
+    height: 100px;
+    padding-left: 133px;
+
 }
 
 #favouritecontent {
@@ -88,7 +88,7 @@ header{
     background-color: white;
     border-radius: 40px;
     border: white;
-        padding: 20px 50px;
+    padding: 20px 50px;
 
 }
 
@@ -111,6 +111,10 @@ header{
     padding: 10px 50px;
 }
 
+.tvimg {
+    width: 150px;
+}
+
 /* STYLE THIRD SECTION*/
 
 #thirdsection {
@@ -128,7 +132,8 @@ header{
     border-radius: 40px;
     padding: 10px 50px;
 }
-.movies{
+
+.movies {
     align-items: center;
     width: 100px;
     display: flex;
@@ -137,8 +142,112 @@ header{
     gap: 10px;
 
 }
-.sizeimg{
+
+.sizeimg {
     width: 100px;
+}
+
+/* STYLE FOURTH SECTION*/
+
+#fourthsection {
+    color: white;
+    max-width: 100%;
+    text-align: center;
+    max-width: 100%;
+    justify-content: center;
+    padding: 10px 15px;
+
+}
+
+.cancel {
+    background-color: rgb(0, 168, 225);
+    border-radius: 40px;
+    padding: 10px 50px;
+}
+
+.times {
+    width: 100px;
+}
+
+
+/* STYLE FIFTH SECTION*/
+
+#fifthsection {
+    color: white;
+    max-width: 100%;
+    text-align: center;
+    max-width: 100%;
+    justify-content: center;
+    padding: 0px 15px;
+
+}
+
+.fifthsection {
+    padding: 10px 10px;
+}
+
+.movies {
+    align-items: center;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+}
+
+/*Background-color was used to adjust the padding to each image*/
+#larrow {
+    width: 20px;
+    /* background-color: green; */
+    padding: 80px;
+}
+
+#iphone {
+    width: 100px;
+    /* background-color: red; */
+    padding: 51px;
+}
+
+#mac {
+    width: 180px;
+    /* background-color: yellow; */
+}
+
+#pc {
+    width: 100px;
+    /* background-color: purple; */
+    padding: 50px;
+}
+
+#rarrow {
+    width: 20px;
+    transform: scaleX(-1);
+    /* background-color: gray; */
+    padding: 80px;
+}
+
+
+/* STYLE SIXTH/FOOTER SECTION*/
+
+footer {
+    color: white;
+    align-items: center;
+
+}
+
+.footer {
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    /* background-color: blueviolet;*/
+    padding-bottom: 10px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 
 /*Desarrollado por: Maria Alejandra Gomez Archila - cc.1005234916 */
