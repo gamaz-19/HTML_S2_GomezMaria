@@ -10,7 +10,7 @@ body {
 /*STYLE FIRST SECTION/HEADER*/
 
 header {
-    background-image: url(/Dia4/images/fondoTwitch.png);
+    background-image: url(../images/fondoTwitch.png);
     position: static;
     max-width: 100%;
     align-content: center;
