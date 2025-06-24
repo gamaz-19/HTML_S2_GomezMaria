@@ -20,36 +20,17 @@ header {
     margin: 0px
 }
 
-.search {
-    float: left;
-    padding-left: 35px;
-    padding-top: 21px
-}
-
 #search {
-    width: 30px;
+    position: absolute;
+    left: 1vw;
     width: 30px;
     justify-items: left;
 }
 
-.logo {
-    width: 120;
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    padding-top: 200px;
-}
 
-#logo {
-    width: 200px;
-    height: 100px;
-    padding-left: 67px;
-}
-
-.login {
-    float: right;
-    padding-right: 20px;
-    padding-top: 21px;
+#login{
+    position: absolute;
+    right: 1vw;
 }
 
 #login {
@@ -61,6 +42,19 @@ header {
     font-size: 12px;
 }
 
+.logo {
+    width: 120;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+#logo {
+    width: 250px;
+    height: 150px;
+
+}
 .favs {
     padding-top: 20px;
     padding-left: 10px;
