@@ -3,6 +3,7 @@
     max-width: 100%;
 }
 
+
 body {
     background-color: rgb(0, 0, 0);
 }
@@ -17,21 +18,17 @@ header {
     text-align: center;
     background-size: cover;
     justify-content: center;
-    margin: 0px
+    margin: 0px;
 }
 
 #search {
     position: absolute;
-    left: 1vw;
+    left: 68px;
+    top: 40px;
     width: 30px;
     justify-items: left;
 }
 
-
-#login{
-    position: absolute;
-    right: 1vw;
-}
 
 #login {
     width: 120px;
@@ -40,6 +37,9 @@ header {
     justify-items: right;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
 }
 
 .logo {
@@ -47,12 +47,12 @@ header {
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    padding-top: 200px;
+    padding-top: 300px;
 }
 
 #logo {
-    width: 250px;
-    height: 150px;
+    width: 280px;
+    height: 160px;
 
 }
 .favs {
@@ -64,7 +64,7 @@ header {
 
 #favouritecontent {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
+    font-size: 58px;
     color: white;
 }
 
@@ -78,11 +78,11 @@ header {
 #now {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    font-size: 1em;
+    font-size: 29px;
 }
 
 .signup {
-    padding-bottom: 50px;
+    padding-bottom: 250px;
     padding-top: 0px;
     padding-left: 10px;
     padding-right: 10px;
@@ -114,12 +114,27 @@ header {
 
 .livecontent {
     background-color: rgb(0, 168, 225);
-    border-radius: 40px;
-    padding: 10px 50px;
+    border-radius: 80px 80px 80px 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 42px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fourk{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 39px;
+    padding-left: 275px;
+    padding-right: 275px;
 }
 
 .tvimg {
-    width: 150px;
+    width: 250px;
 }
 
 /* STYLE THIRD SECTION*/
@@ -130,15 +145,25 @@ header {
     text-align: center;
     max-width: 100%;
     justify-content: center;
-    padding: 0px 15px;
+    padding: 10px 15px;
 }
 
 .thirdsection {
     background-color: rgb(0, 168, 225);
-    border-radius: 40px;
+    border-radius: 80px 80px 80px 80px;
     padding: 10px 50px;
 }
 
+.dont{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sizeimg {
+    width: 200px;
+}
 .movies {
     align-items: center;
     width: 100px;
@@ -148,9 +173,13 @@ header {
     gap: 10px;
 }
 
-.sizeimg {
-    width: 100px;
+.youwill{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 51px;
+    padding-left: 95px;
+    padding-right: 95px;
 }
+
 
 /* STYLE FOURTH SECTION*/
 
@@ -160,19 +189,32 @@ header {
     text-align: center;
     max-width: 100%;
     justify-content: center;
-    padding: 10px 15px;
+    padding: 10px 15px;  
 }
 
 .cancel {
     background-color: rgb(0, 168, 225);
-    border-radius: 40px;
+    border-radius: 80px 80px 80px 80px;
     padding: 10px 50px;
 }
 
-.times {
-    width: 100px;
+.anytime{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
+.times {
+    width: 200px;
+}
+
+.ifyou{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 51px;
+    padding-left: 95px;
+    padding-right: 95px;
+}
 
 /* STYLE FIFTH SECTION*/
 
@@ -189,40 +231,55 @@ header {
     padding: 10px 10px;
 }
 
+.compatibledevices{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.there{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
 .movies {
     align-items: center;
     width: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    gap: 2px;
 }
 
 /*Background-color was used to adjust the padding to each image*/
 #larrow {
-    width: 20px;
-    /* background-color: green; */
+    width: 30px;
+    /*background-color: green; */
     padding: 80px;
 }
 
 #iphone {
-    width: 100px;
-    /* background-color: red; */
+    width: 220px;
+    /*background-color: red; */
     padding: 51px;
 }
 
 #mac {
-    width: 180px;
+    width: 300px;
     /* background-color: yellow; */
 }
 
 #pc {
-    width: 100px;
+    width: 200px;
     /* background-color: purple; */
     padding: 50px;
 }
 
 #rarrow {
-    width: 20px;
+    width: 30px;
     transform: scaleX(-1);
     /* background-color: gray; */
     padding: 80px;
@@ -247,6 +304,8 @@ footer {
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
 }
 
 /*Desarrollado por: Maria Alejandra Gomez Archila - cc.1005234916 */
