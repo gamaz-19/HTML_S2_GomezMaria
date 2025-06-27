@@ -1,0 +1,167 @@
+body{
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    position: absolute;
+    text-align: center;
+}
+
+section{
+    background-image: linear-gradient(white 20px, rgb(230, 230, 230) , rgb(128, 128, 128) );
+    display: flex;
+    flex-wrap: wrap; /* Para que los elementos hagan salto de linea cuando no entren en el espacip*/
+    gap: 0px; /*Espacio entre los elementos*/
+    margin: 0px;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+    padding-right: 100px;
+}
+
+/* LEFT SIDE */
+#white{
+    width: 1100px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+}
+
+#black{
+    width: 100px;
+    height: 700px;
+    background-color: rgb(0, 0, 0);
+}
+
+.topbar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin: 0px;
+}
+.logotop{
+    width: 196px;
+    /* background-color: red; */
+    margin-top: 43px;
+    margin-left: 43px;
+}
+.primertexto{
+    /* background-color: aqua; */
+    width: 230px;
+    margin-left: 380px;
+    margin-top: 43px;
+    text-align: center;
+}
+.saldo{
+    width: 132px;
+    /* background-color: yellow; */
+    margin-top: 43px;
+    text-align: center;
+}
+
+.lupa{
+    width: 27px;
+    /* background-color: green; */
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.cart{
+    width: 30px;
+    /* background-color: blanchedalmond; */
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.tarjeta{
+    text-align: center;
+    /* background-color: violet; */
+    margin-top: 120px;
+    padding-right: 70px;
+    filter: contrast(0.7)
+}
+
+#foto{
+    width: 500px;
+    filter: contrast(1.2)
+}
+
+.bottombar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin: 0px;
+}
+
+.left{
+    margin-top: 30px;
+    margin-left: 43px;
+}
+
+#textheader{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+    /* background-color: aqua; */
+    margin-bottom: 10px;
+}
+
+#text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.right{
+    margin-top: 50px;
+    margin-left: 280px;
+    margin-bottom: 40px;
+    background-color: rgb(213, 255, 67);
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 8px;
+}
+
+#smallogo{
+    width: 100px;
+    /* background-color: aliceblue; */
+    margin-bottom: 10px;
+
+}
+#textbuy{
+    /* background-color: rgb(69, 125, 173); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+/* RIGHT SIDE BAR */
+
+#black{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+#up{
+    margin-top: 40px;
+}
+#cantidad{
+    margin-top: 110px;
+    margin-bottom: 130px;
+}
+#four{
+    margin-bottom: 40px
+}
+
+#five{
+
+    margin-bottom: 40px;
+}
+
+#six{
+
+    margin-bottom: 180px;
+}
+#down{
+    margin-bottom: 10px;
+}
