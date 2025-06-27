@@ -19,6 +19,7 @@ section{
     padding-bottom: 200px;
     padding-right: 100px;
 }
+/*FIRST PAGE*/
 
 /* LEFT SIDE */
 #white{
@@ -45,18 +46,26 @@ section{
     margin-top: 43px;
     margin-left: 43px;
 }
-.primertexto{
+.compra{
     /* background-color: aqua; */
     width: 230px;
     margin-left: 380px;
     margin-top: 43px;
     text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    text-decoration: none;
 }
 .saldo{
     width: 132px;
     /* background-color: yellow; */
     margin-top: 43px;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
 }
 
 .lupa{
@@ -147,10 +156,11 @@ section{
 }
 #cantidad{
     margin-top: 110px;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 }
 #four{
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    color: rgb(146, 147, 148);
 }
 
 #five{
@@ -161,7 +171,81 @@ section{
 #six{
 
     margin-bottom: 180px;
+    color: rgb(146, 147, 148);
 }
 #down{
     margin-bottom: 10px;
 }
+
+/*SECOND PAGE*/
+/* LEFT SIDE */
+
+.tarjeta2{
+    text-align: center;
+    /* background-color: violet; */
+    margin-top: 60px;
+    filter: contrast(0.7)
+}
+
+#foto2{
+    width: 350px;
+    filter: contrast(1.2)
+}
+
+.bottombar2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin: 0px;
+    text-align: center;
+    /* background-color: coral; */
+}
+
+.left2{
+    margin-top: 30px;
+    margin-left: 0px;
+    padding-left: 280px;
+    /* background-color: yellow; */
+}
+
+#textheader2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+    /* background-color: aqua; */
+    margin-bottom: 10px;
+}
+#text1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    /* background-color: chocolate; */
+}
+#text2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    /* background-color: brown; */
+}
+.right2{
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    background-color: rgb(213, 255, 67);
+    text-align: center;
+    padding:20px 15px;
+    border-radius: 8px;
+}
+
+#smallogo2{
+    width: 100px;
+    /*background-color: aliceblue; */
+    margin-bottom: 10px;
+
+}
+#textbuy2{
+    /*background-color: rgb(69, 125, 173); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
