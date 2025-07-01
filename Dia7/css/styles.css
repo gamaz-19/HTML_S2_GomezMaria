@@ -6,36 +6,29 @@
 body {
     background-color: rgb(0, 0, 0);
 }
-
+/* HEADER */
 header {
-
     margin: 0px;
     color: white;
     display: flex;
     flex-wrap: wrap;
 }
 
+/* FIRST SECTION */
 .logoheader{
-    position: absolute;
-    left: 80px;
-    justify-items: left;
+    align-content: center;
+    background-color: aqua;
 }
 
 #logo{
-    margin: 0px;
+    width: 70vw;
+    padding-right: 15vw;
+    background-color: red;
 }
 
 .menu{
-    margin: 0px;
-}
-
-.rightsideheader{
-    justify-items: right;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    right: 50px;
+    width: 10vw;
+    background-color: green;
 }
 
 .firstcoffee{
@@ -46,10 +39,12 @@ header {
     background-size: cover;
     height: 490px;
     margin-top: 20px;
+
 }
 
 .start {
     padding-top: 60px;
+    font-size: 25px;
 }
 
 #yourday{
@@ -57,13 +52,66 @@ header {
 }
 
 .our {
-    padding-top: 270px;
+    padding-top: 200px;
+    font-size: 25px;
 }
 
 #ourcoffee {
     color: white;
 }
 
+/* SECOND SECTION */
+
+#middle{
+    text-align: center;
+}
+#shopnow{
+    align-content: center;
+    background-color: rgb(217, 160, 85);
+    border-color: transparent;
+    width: 80px;
+    height: 30px;
+}
+
+#cupone{
+    width: 50vw;
+}
+
+#rightsidecupone{
+    
+    width: 40vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    color: white;
+}
+
+#storytitle{
+    font-size: 30px;
+}
+
+#learnmore{
+    background-color: rgb(217, 160, 85);
+    border-color: transparent;
+}
 
 
+/* THIRD SECTION */
 
+#cuptwo{
+    width: 25vw;
+    padding-left: 5vw;
+}
+
+#leftsidecuptwo{
+    width: 40vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    color: white;
+}
+
+#perfecttitle{
+    font-size: 30px;
+}
+
+
+/* Desarrollado por: Maria Alejandra Gomez Archila - cc.1005234916 */
