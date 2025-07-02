@@ -17,18 +17,15 @@ header {
 /* FIRST SECTION */
 .logoheader{
     align-content: center;
-    background-color: aqua;
 }
 
 #logo{
     width: 70vw;
     padding-right: 15vw;
-    background-color: red;
 }
 
 .menu{
     width: 10vw;
-    background-color: green;
 }
 
 .firstcoffee{
@@ -103,15 +100,18 @@ header {
 }
 
 #leftsidecuptwo{
-    width: 40vw;
+    width: 35vw;
     padding-right: 5vw;
-    padding-left: 5vw;
+    padding-left: 15vw;
     color: white;
 }
 
 #perfecttitle{
     font-size: 30px;
 }
+
+/* FOURTH SECTION */
+
 
 
 /* Desarrollado por: Maria Alejandra Gomez Archila - cc.1005234916 */
