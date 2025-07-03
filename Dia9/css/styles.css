@@ -1,0 +1,93 @@
+*{
+    margin: auto;
+    justify-content: space-between;
+    border-radius: 2% 2% 2% 2%;
+}
+
+body{
+    background-color: rgb(32, 32, 32) ;
+}
+
+
+.maingrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 3vw;
+    justify-content: space-evenly;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+/*
+.maingrid > div {
+    background-color: purple;
+}
+*/
+.secondgrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    gap: 10px;
+    margin-top: 2vw;
+    justify-content: space-evenly;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+/*
+.secondgrid > div {
+    background-color: rgb(45, 190, 105);
+}
+
+*/
+
+.item2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+}
+
+.item4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.item6 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+}
+
+
+
+#purpledino{
+    width: 45vw;
+}
+#believe{
+    width: 45vw;
+}
+#plastic{
+    width: 45vw;
+}
+#t-rex{
+    width: 93.5vw;
+    height: 53vw;
+}
+
+#greenimg{
+    width: 45vw;
+}
+
+#collage{
+    width: 45vw;
+}
+#greendino{
+    width: 45vw;
+}
+
+/*Desarrollado por: Maria Alejandra Gomez Archila - cc.1005234916 */
