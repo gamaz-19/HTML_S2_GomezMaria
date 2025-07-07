@@ -1,0 +1,63 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    position: absolute;
+    
+}
+
+.bernie{
+    left: 220px;
+    top: 250px;
+    image-rendering: pixelated;
+    position:relative;
+    width: 60px;
+    height: 100px;
+    background: url(../media/bernieimg.webp);
+    background-size:cover;
+    animation: movimiento .36s steps(7) infinite;
+
+}
+
+@keyframes movimiento{
+    from{
+background-position: 0px;
+    }
+    to{
+        background-position: -500px;
+    }
+}
+
+.top{
+    width: 228vw;
+    height: 38vh;
+    background: url(../media/sky.webp);
+    background-size:cover;
+    animation: sky .50s steps(3) infinite;
+}
+
+@keyframes sky{
+    from{
+background-position: 0px;
+    }
+    to{
+        background-position: -500px;
+    }
+}
+
+.bottom{
+    image-rendering: pixelated;
+    width: 228vh;
+    height: 23vh;
+    background: url(../media/sea.png);
+    animation: sea .50s steps(3) infinite;
+}
+
+@keyframes sea{
+    from{
+background-position: 0px;
+    }
+    to{
+        background-position: -500px;
+    }
+}
